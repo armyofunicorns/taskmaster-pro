@@ -46,6 +46,11 @@ var saveTasks = function() {
 };
 
 
+$(".list-group").on("click", "p", function() {
+  var text = $(this).text();
+  console.log(text);
+});
+
 
 
 // modal was triggered
